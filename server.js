@@ -13,10 +13,10 @@ dotenv.config();
   const MONGO_URI = process.env.MONGO_URI || "mongodb://localhost:27017/educamais"
   const PORT = process.env.PORT || 5050
 
-  const index = require("./routes/index");
-  const usuario = require ("./routes/usuarioRoute");
-  const postagem = require ("./routes/postagemRoute");
-  const aluno = require ("./routes/alunoRoute");
+  const index = require("./src/routes/index");
+  const usuario = require ("./src/routes/usuarioRoute");
+  const postagem = require ("./src/routes/postagemRoute");
+  const aluno = require ("./src/routes/alunoRoute");
 
 mongoose.connect(MONGO_URI, {
   useNewUrlParser: true,
@@ -44,7 +44,7 @@ mongoose.connect(MONGO_URI, {
   })
 
   app.listen(PORT, () => {
-    console.log('Está rodando')
+    console.log(`Server rodando na porta:${PORT}`)
   })
 
 module.exports = app
