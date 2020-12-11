@@ -1,8 +1,8 @@
-const express = require('express')
-const bodyParser = require('body-parser')
-const mongoose = require('mongoose')
-const app = express()
-const dotenv = require('dotenv')
+const express = require('express');
+const bodyParser = require('body-parser');
+const mongoose = require('mongoose');
+const app = express();
+const dotenv = require('dotenv');
 
 dotenv.config();
 
@@ -11,7 +11,7 @@ dotenv.config();
  */
 
   const MONGO_URI = process.env.MONGO_URI || "mongodb://localhost:27017/educamais"
-  const PORT = process.env.PORT || 5000
+  const PORT = process.env.PORT || 5050
 
   const index = require("./routes/index");
   const usuario = require ("./routes/usuarioRoute");
