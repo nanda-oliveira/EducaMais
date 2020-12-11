@@ -17,8 +17,8 @@ const getAllUsers = (req,res)=>{
 }
 
 const getByName = (req, res)=>{
-    const nome = req.params.nome
-    usuarioCollection.find(nome, (error, usuarios)=>{
+    //const {nome} = req.params.nome 
+    usuarioCollection.findOne({nome:req.params.nome}, (error, usuarios)=>{
         if(error){
             return res.status(500).send(error)
         }else{
@@ -55,7 +55,7 @@ const deleteUser = (req, res) =>{
 }
 
 const updateUser = (req, res) =>{
-    const idParam = req.params.id
+    const idParam = req.query
     const userBody = req.body
     const userAtualizado = {new:true}
 

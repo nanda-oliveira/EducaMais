@@ -39,7 +39,7 @@ const addPostagem = (req,res) =>{
 }
 
 const deletePostagem = (req,res)=>{
-    const removePostagem = req.params.id
+    const removePostagem = req.query
     postagemCollection.findByIdAndDelete(removePostagem, (error, postagem)=>{
         if(error){
             return res.status(500).send(error)
@@ -50,7 +50,7 @@ const deletePostagem = (req,res)=>{
 }
 
 const updatePostagem = (req,res)=>{
-    const idParam = req.params.id
+    const idParam = req.query
     const postagemBody= req.body
     const postagemAtualizada = {new:true}
 

@@ -35,7 +35,7 @@ const addAluno = (req, res) =>{
 
 
 const deleteAluno = (req,res)=>{
-    const removerAluno = req.params
+    const removerAluno = req.query
     alunoCollection.findByIdAndDelete(removerAluno, (error, aluno)=>{
         if(error){
             return res.status(500).send(error)
@@ -46,7 +46,7 @@ const deleteAluno = (req,res)=>{
 }
 
 const updateAluno = (req,res) =>{
-    const idParam = req.query.id
+    const idParam = req.query
     const alunoBody = req.body
     const alunoAtualizado= {new:true}
 
@@ -57,7 +57,7 @@ const updateAluno = (req,res) =>{
         alunoAtualizado,
         (error, aluno)=>{
             if(error){
-                return res.status.send({
+                return res.status(500).send({
                     mensagem: "Falha ao atualizar cadastro do aluno",
                     error
                 })
