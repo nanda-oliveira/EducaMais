@@ -35,7 +35,7 @@ const addAluno = (req, res) =>{
 
 
 const deleteAluno = (req,res)=>{
-    const removerAluno = req.params.id
+    const removerAluno = req.query._id
     alunoCollection.findByIdAndDelete(removerAluno, (error, aluno)=>{
         if(error){
             return res.status(500).send(error)
@@ -46,7 +46,7 @@ const deleteAluno = (req,res)=>{
 }
 
 const updateAluno = (req,res) =>{
-    const idParam = req.query
+    const idParam = req.query._id
     const alunoBody = req.body
     const alunoAtualizado= {new:true}
 
