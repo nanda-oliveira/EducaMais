@@ -5,7 +5,7 @@ const controller = require("../controllers/usuarioController");
 router.get("/usuarios", controller.getAllUsers)//http://localhost:3030/usuario/usuarios/
 router.get("/nome/:nome", controller.getByName) // http://localhost:3030/usuario/nome
 router.post("/create", controller.addUser) //http://localhost:3030/usuario/cadastro/
-router.delete("/delete/:id", controller.deleteUser)//http://localhost:3030/usuario/delete/
-router.patch("/update/:id", controller.updateUser) //http://localhost:3030/usuario/atualizar7
+router.delete("/delete", controller.deleteUser)//http://localhost:3030/usuario/delete/
+router.put("/update", controller.updateUser) //http://localhost:3030/usuario/atualizar7
 
 module.exports = router;

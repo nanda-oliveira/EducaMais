@@ -84,9 +84,9 @@ GET     | /postagem/todos        |  Retorna todas as postagens            |
 POST    | /aluno/create          |  Cadastro aluno                        |
 POST    | /usuario/create        |  Cadastro usuario                      |
 POST    | /postagem/create       |  Adiciona uma postagem                 |
-PATCH   | /aluno/update/:id      |  Atualiza cadastro aluno               |
-PATCH   | /usuario/update/:id    |  Atualiza cadastro usuario             |
-PATCH   | /postagem/update/:id   |  Atualiza uma postagem                 |
-DELETE  | /aluno/delete/:id      |  Deleta cadastro de aluno              |
-DELETE  | /usuario/delete/:id    |  Deleta cadastro de usuario            |
-DELETE  | /postagem/delete/:id   |  Deleta uma postagem                   |
+PUT     | /aluno/update/         |  Atualiza cadastro aluno               |
+PUT     | /usuario/update/       |  Atualiza cadastro usuario             |
+PUT     | /postagem/update/      |  Atualiza uma postagem                 |
+DELETE  | /aluno/delete/         |  Deleta cadastro de aluno              |
+DELETE  | /usuario/delete/       |  Deleta cadastro de usuario            |
+DELETE  | /postagem/delete/      |  Deleta uma postagem                   |
