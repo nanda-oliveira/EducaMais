@@ -44,7 +44,7 @@ const addUser = (req,res) =>{
 }
 
 const deleteUser = (req, res) =>{
-    const removerUser = req.query
+    const removerUser = req.query._id
     usuarioCollection.findByIdAndDelete(removerUser, (error,user)=>{
         if (error){
             return res.status(500).send(error)
@@ -55,7 +55,7 @@ const deleteUser = (req, res) =>{
 }
 
 const updateUser = (req, res) =>{
-    const idParam = req.query
+    const idParam = req.query._id
     const userBody = req.body
     const userAtualizado = {new:true}
 
