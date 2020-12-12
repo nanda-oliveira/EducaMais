@@ -6,16 +6,16 @@ API desenvolvida como Projeto Final para a conclusão do curso de Backend [{Repr
 
 
 ## ✅ Contexto Social 
-- A crise causada pela pandemia de Covid-19 pode retardar o progresso na educação por várias décadas, acentuando ainda mais a desigualdade social no país.Devido à nova organização do contexto educacional, podemos obsevar o aumento de estresse entre alunos, pais e professores . Portanto, é preciso uma avaliação completa e um registro das experiências nesse período de adaptação.
+- A crise causada pela pandemia de Covid-19 pode retardar o progresso na educação por várias décadas, acentuando ainda mais a desigualdade social no país. Devido à nova organização do contexto educacional, podemos obsevar o aumento de estresse entre alunos, pais e professores. Portanto, é preciso uma avaliação completa e um registro das experiências nesse período de adaptação.
 
 ## ✅ Problema
-- Ausência de canais de comunicação eficaz entre família e escola, falta de suporte para os pais, ausência de um índice para orientar os professores no planejamento das aulas, socialização das experiências, criação de rede de apoio entre familiares. 
+- Ausência de canais de comunicação eficaz entre família e escola, falta de suporte para os pais e ausência de índices para orientar os professores no planejamento das aulas. 
 
 ## ✅ O que? 
-- Plataforma de comunicação família - escola para um compartilhamento das experiências de aprendizagem das crianças durante a pandemia. 
+- Plataforma de comunicação família - escola para compartilhar as experiências de aprendizagem das crianças durante a pandemia. 
 
 ## ✅ Objetivos
-- Favorecer uma avaliação qualitativa do processo de ensino aprendizagem, compartilhar experiências e práticas para fortalecer a comunidade entre os pais, criação de estratégias criativas de aprendizagem, crianção de rede de apoio.
+- Favorecer uma avaliação qualitativa do processo de ensino aprendizagem, compartilhar experiências e práticas para fortalecer a comunidade entre os pais, criação de estratégias criativas de aprendizagem e fortalecimento da rede de apoio.
 
 ## ✅ Aprendizados
  - Arquitetura Model View Controller (MVC);
