@@ -102,3 +102,31 @@ PUT     | /postagem/update/      |  Atualiza uma postagem                 |
 DELETE  | /aluno/delete/         |  Deleta cadastro de aluno              |
 DELETE  | /usuario/delete/       |  Deleta cadastro de usuario            |
 DELETE  | /postagem/delete/      |  Deleta uma postagem                   |
+
+---
+
+
+### Rodando o Back End 
+
+```bash
+Server Local
+# Com o git/With git
+# Clone este repositório/Clone this repository
+$ git clone <https://github.com/nanda-oliveira/EducaMais.git>
+
+# Acesse a pasta do projeto no terminal - cmd/Access the mkdir of project on terminal
+$ cd EducaMais
+
+# Instale as dependências/Install the dependencies
+$ npm install
+$ npm instal mongoose
+
+# Execute o servidor/Run the server
+$ npm start
+
+# O servidor inciará na porta:5050 - acesse <http://localhost:5050>/The server will start on port 5050
+# Mongo conectado em mongodb://localhost:27017/educamais connected to mongodb
+```
+
+
+---
