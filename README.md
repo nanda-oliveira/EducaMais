@@ -4,6 +4,10 @@
 ## 🚀 Descrição
 API desenvolvida como Projeto Final para a conclusão do curso de Backend [{Reprograma}](https://reprograma.com.br/).
 
+<p align="center">
+<img src= "https://github.com/nanda-oliveira/EducaMais/blob/main/img/educamais.png" >
+</p>
+
 
 ## ✅ Contexto Social 
 - A crise causada pela pandemia de Covid-19 pode retardar o progresso na educação por várias décadas, acentuando ainda mais a desigualdade social no país. Devido à nova organização do contexto educacional, podemos obsevar o aumento de estresse entre alunos, pais e professores. Portanto, é preciso uma avaliação completa e um registro das experiências nesse período de adaptação.
